@@ -11,8 +11,5 @@ public class Login {
 
     public void login(){
         System.out.println("sdfasdfa");
-        WebDriver driver = new ChromeDriver();
-        driver.get("http://www.baidu.com");
-        driver.quit();
     }
 }

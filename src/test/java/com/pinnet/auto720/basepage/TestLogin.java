@@ -14,6 +14,11 @@ public class TestLogin {
 
     @Test
     public void testCase2(){
-        assert 1 == 2 : "出错了";
+        assert 1 == 2;
+    }
+
+    @Test
+    public void testCase3(){
+        assert 1 == 2;
     }
 }

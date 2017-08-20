@@ -11,4 +11,9 @@ public class TestLogin {
         Login login = new Login();
         login.login();
     }
+
+    @Test
+    public void testCase2(){
+        assert 1 == 2 : "出错了";
+    }
 }

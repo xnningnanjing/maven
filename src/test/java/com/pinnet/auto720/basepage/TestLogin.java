@@ -21,4 +21,9 @@ public class TestLogin {
     public void testCase3(){
         assert 1 == 2;
     }
+
+    @Test
+    public void testCase4(){
+        assert 1 == 2;
+    }
 }
